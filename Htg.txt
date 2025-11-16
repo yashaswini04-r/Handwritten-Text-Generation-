@@ -1,0 +1,9 @@
+import pywhatkit as kit
+
+# Text input to convert
+text = "Hello, this is handwritten text generated using Python!"
+
+# Convert text to handwriting and save as image
+kit.text_to_handwriting(text, save_to="handwritten.png")
+
+print("Handwritten text image generated successfully.")
